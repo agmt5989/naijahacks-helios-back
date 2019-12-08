@@ -1,4 +1,59 @@
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# Team Helios
+
+## Team Members
+<li>Abubakar Alaro <br> alaroabubakarolayemi@yahoo.com</li>
+<li></li>
+<li></li>
+<li></li>
+
+## Problem
+Lack of Awareness on materials lecturers use to deseminate information to students. This has caused many students to fail a course.
+## Proposed Solution
+A Package that links students, teachers, scholars, tutors to Instructional Materials that they can learn from.
+## Proposed Stack
+Node, Python, ReactJs, HTML, JavaScript and CSS
+## Benefit
+<li>Provide a good platform for students to share course materials</li>
+<li>Reduce the stress of searching online for materials to read for a particular course</li>
+<li>Enhance Interaction between students and lecturers</li>
+
+# Top-Level directory layout
+
+
+
+# How to setup project and run locally
+
+### Clone the repository
+git clone https://github.com/agmt5989/naijahacks-helios-back.git
+
+## Install all dependencies
+Using yarn
+yarn install
+
+Using npm
+npm install
+
+# Start watching the file and changes
+using yarn
+yarn run watch
+
+using npm
+npm run watch
+
+# Start the development server to serve static files and connect to database
+using yarn
+yarn run serve
+
+using npm
+npm run serve
+
+# Start project to test from the browser
+using yarn
+yarn start
+
+using npm
+npm start
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
