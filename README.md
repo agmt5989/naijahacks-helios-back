@@ -28,31 +28,31 @@ Node, Python, ReactJs, HTML, JavaScript and CSS
 git clone https://github.com/agmt5989/naijahacks-helios-back.git
 
 ## Install all dependencies
-Using yarn
+Using yarn <br>
 yarn install
 
-Using npm
+Using npm <br>
 npm install
 
 # Start watching the file and changes
-using yarn
+using yarn <br>
 yarn run watch
 
-using npm
+using npm <br>
 npm run watch
 
 # Start the development server to serve static files and connect to database
-using yarn
+using yarn <br>
 yarn run serve
 
-using npm
+using npm <br>
 npm run serve
 
 # Start project to test from the browser
-using yarn
+using yarn <br>
 yarn start
 
-using npm
+using npm <br>
 npm start
 
 <p align="center">
