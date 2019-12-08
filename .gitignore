@@ -1,14 +1,23 @@
+## Things to ignore
+
+# Directories
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
 .DS_Store
-!node_modules/
-node_modules/*
-!/node_modules/xdv/
-!/node_modules/@fortawesome/
-!/node_modules/vue-mathjax/
-/node_modules/xdv/node_modules
-#/dist
+
+# Configuration files
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
 
 # local env files
+.env
 .env.local
+.env.backup
 .env.*.local
 
 # Log files
