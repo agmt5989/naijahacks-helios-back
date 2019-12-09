@@ -16,6 +16,7 @@ Homestead.yaml
 
 
 # local env files
+/src/.env
 .env
 .env.local
 .env.backup
