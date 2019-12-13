@@ -4,6 +4,7 @@
   "description": "<p align=\"center\"><img src=\"https://i.imgur.com/aZY0DOM.png\" width=\"400\"></p> # Team Helios",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
     "nodemon": "^2.0.1"
   }
 }
