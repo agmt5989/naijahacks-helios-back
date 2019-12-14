@@ -13,9 +13,6 @@ require('winston-daily-rotate-file');
 const StudentService = require('../services/studentService');
 const StudentController = require('../controllers/StudentController');
 
-const InstService = require('../services/InstitutionService');
-const InstController = require('../controllers/InstitutionController');
-
 
 /**
  * Returns an instance of logger for the API
@@ -239,26 +236,6 @@ serviceLocator.register('studentController', (servicelocator) => {
 	const logger = servicelocator.get('logger');
 	const service = servicelocator.get('studentService');
 	return new StudentController(logger, service);
-});
-
-
-/**
- * Creates an instance of the Inst Service
- */
-serviceLocator.register('instService', (servicelocator) => {
-	const logger = servicelocator.get('logger');
-	const mongo = servicelocator.get('mongo');
-	return new InstService(logger, mongo);
-});
-
-
-/**
- * Creates an instance of the Inst Controller
- */
-serviceLocator.register('instController', (servicelocator) => {
-	const logger = servicelocator.get('logger');
-	const service = servicelocator.get('instService');
-	return new InstController(logger, service);
 });
 
 
