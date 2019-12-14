@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7267ad39-078f-489a-be5e-66c110658401" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/node/ps" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -57,7 +59,9 @@
       <workItem from="1575877574052" duration="2023000" />
       <workItem from="1576266835725" duration="582000" />
       <workItem from="1576295335785" duration="1811000" />
-      <workItem from="1576308356104" duration="1564000" />
+      <workItem from="1576308356104" duration="8107000" />
+      <workItem from="1576343069062" duration="53000" />
+      <workItem from="1576345243071" duration="2730000" />
     </task>
     <servers />
   </component>

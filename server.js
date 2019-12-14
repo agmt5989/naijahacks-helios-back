@@ -2,6 +2,10 @@ const express = require("express");
 const jwt = require("jsonwebtoken");
 
 const apiRoutes = require('./routes/api')
+const userRoute = require('./routes/studentRoute');
+
+
+const serviceLocator = require('./config/di');
 
 const app = express();
 
