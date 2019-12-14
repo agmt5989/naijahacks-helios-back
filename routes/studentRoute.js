@@ -1,7 +1,7 @@
 
 
-const config = require('../config/settings');
-const {validateToken} = require('../lib/utilityHelper')
+const config = require('../config/config');
+const {validateToken} = require('../config/lib')
 
 const routes = function routes(server, serviceLocator) {
 	const studentController = serviceLocator.get('studentController');

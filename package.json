@@ -18,9 +18,20 @@
   },
   "homepage": "https://github.com/agmt5989/naijahacks-helios-back#readme",
   "dependencies": {
+    "amqplib": "^0.5.5",
+    "bcrypt-nodejs": "^0.0.3",
+    "bluebird": "^3.7.2",
     "express": "^4.17.1",
+    "joi": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "moment": "^2.24.0",
+    "mongodb": "^3.4.0",
     "mongoose": "^5.8.1",
-    "nodemon": "^2.0.1"
+    "nodemon": "^2.0.1",
+    "redis": "^2.8.0",
+    "uuid": "^3.3.3",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.0"
   }
 }

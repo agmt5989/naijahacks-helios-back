@@ -6,11 +6,18 @@ const userRoute = require('./routes/studentRoute');
 
 
 const serviceLocator = require('./config/di');
+const logger = serviceLocator.get('logger');
 
 const app = express();
 
 app.use(express.json());
 
-app.use('/api', apiRoutes)
+// Connect to Mongo
+serviceLocator.get('mongo');
+
+app.use('/api', apiRoutes);
+
+// setup Routing and Error Event Handling
+userRoute(app, serviceLocator);
 
 app.listen(5000, () => console.log("Server running on port 5000"));

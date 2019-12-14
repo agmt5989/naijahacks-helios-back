@@ -4,17 +4,14 @@ const bluebird = require('bluebird');
 const mongoose = require('mongoose');
 let MongoClient = require('mongodb').MongoClient;
 
-const config = require('../config/settings');
-const serviceLocator = require('../lib/serviceLocator');
+const config = require('../config/config');
+const serviceLocator = require('../config/serviceLocator');
 
 const winston = require('winston');
 require('winston-daily-rotate-file');
 
 const StudentService = require('../services/studentService');
 const StudentController = require('../controllers/StudentController');
-
-const TransactionService = require('../services/transactionService');
-const TransactionController = require('../controllers/TransactionController');
 
 const InstService = require('../services/InstitutionService');
 const InstController = require('../controllers/InstitutionController');
@@ -242,25 +239,6 @@ serviceLocator.register('studentController', (servicelocator) => {
 	const logger = servicelocator.get('logger');
 	const service = servicelocator.get('studentService');
 	return new StudentController(logger, service);
-});
-
-/**
- * Creates an instance of the Transaction Service
- */
-serviceLocator.register('transactionService', (servicelocator) => {
-	const logger = servicelocator.get('logger');
-	const mongo = servicelocator.get('mongo');
-	return new TransactionService(logger, mongo);
-});
-
-
-/**
- * Creates an instance of the Transaction Controller
- */
-serviceLocator.register('transactionController', (servicelocator) => {
-	const logger = servicelocator.get('logger');
-	const service = servicelocator.get('transactionService');
-	return new TransactionController(logger, service);
 });
 
 
